@@ -1,0 +1,25 @@
+.homePage {
+    max-width: 1280px; /* Độ rộng tối đa là 1280px */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    padding: 0 20px; /* Thêm padding để cách lề trái và lề phải */
+}
+
+
+.hotProducts {
+    padding: 0 116px;
+    height: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.row {
+    justify-content: space-between;
+
+}
+
+.loadMore {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100px; /* Điều chỉnh chiều cao tùy theo nhu cầu */
+}

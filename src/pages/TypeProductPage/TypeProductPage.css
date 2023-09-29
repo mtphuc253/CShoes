@@ -1,0 +1,36 @@
+/* TypeProductPage.css (or a separate CSS file for this layout) */
+
+/* Center the container on the screen */
+.container {
+    width: 1280px;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Create a CSS Grid with two columns */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 140px 1fr; /* 140px for NavBarComponent, 1fr for CardComponent */
+    gap: 20px; /* Adjust the gap between the components */
+  }
+  
+  /* Style for NavBarComponent */
+  .NavBarComponent {
+    /* Adjust the width of NavBarComponent */
+    width: 140px;
+  }
+  
+  /* Style for CardComponent */
+  .CardComponent {
+    /* Adjust the width of CardComponent */
+    width: 1140px;
+   
+  }
+  
+  .row {
+    justify-content: space-between;
+
+}
+ 

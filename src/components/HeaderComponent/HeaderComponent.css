@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top header styles */
+.top-header {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+   
+}
+
+/* Wrapper for the top header content */
+.wrapperHeader {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo container styles */
+.wrapperLogoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.wrapperLogoHeader img {
+    width: 110px; /* Adjust the width as needed */
+    height: 100px;
+    padding-left: 15px;
+}
+
+/* Function header styles */
+.wrapperFunctionHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spacing between items */
+}
+
+.wrapperFunctionHeader i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+/* Bottom header styles */
+.bot-header {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation bar styles */
+.nav-bar-header {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+/* Navigation bar list styles */
+.nav-bar-header-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navigation bar item styles */
+.nav-bar-header-item {
+    margin-right: 20px; /* Adjust spacing between items */
+    display: flex;
+
+}
+
+/* Navigation bar link styles */
+.nav-bar-header-item a {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+}
+
+.nav-bar-header-item a:hover {
+    /* Add hover styles here */
+    color: #fff; /* Hover color */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Dark background color for the search bar */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners for the search bar */
+    font-size: 13px;
+}
+
+.searchBox {
+    flex-grow: 1; /* Allow the input to expand and fill available space */
+    background-color: #222; /* Darker background color for the input */
+    color: white; /* Text color in the input */
+    border: none; /* Remove input border */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners for the input */
+    outline: none; /* Remove input focus outline */
+    height: 25px;
+}
+
+/* Styling for the search button */
+.searchBtn {
+    background-color: transparent; /* Transparent background for the button */
+    border: none; /* Remove button border */
+    margin-left: 10px; /* Adjust margin as needed for spacing */
+    cursor: pointer;
+}
+
+/* Styling for the icon inside the button */
+.searchBtn i {
+    color: white; /* Text color for the icon (white) */
+    font-size: 20px; /* Adjust icon size as needed */
+}
+
+/* Hover effect for the button */
+.searchBtn:hover {
+    /* Add hover styles here (e.g., change button background color) */
+    background-color: #555; /* Example hover background color */
+}

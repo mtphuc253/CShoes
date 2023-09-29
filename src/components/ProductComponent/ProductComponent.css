@@ -1,0 +1,19 @@
+
+.hotProducts {
+    padding: 0 116px;
+    height: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.row {
+    justify-content: flex-start;
+
+}
+
+.loadMore {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100px; /* Điều chỉnh chiều cao tùy theo nhu cầu */
+}

@@ -1,0 +1,65 @@
+.card {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(255, 226, 59);
+    border: none;
+}
+
+.cardStyle img{
+    height: 200px;
+    width: 200px;
+}
+
+.nameProduct {
+    font-size: 16px;
+    font-weight: 700;
+    color: #030303;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.reportProduct span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 2px;
+    font-size: 13px;
+}
+
+.priceProduct {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(86, 86, 86);
+}
+
+/* hover-card.css */
+
+/* Màu nền xanh và chữ trắng của nút VIEW */
+.cardItem:hover::after {
+    content: "VIEW";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white; /* Màu chữ trắng */
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer; /* Con trỏ khi hover */
+    opacity: 1; /* Hiển thị */
+  }
+  
+  .cardItem img:hover {
+    filter: blur(1px);
+  }
+
+
+  
+
+
