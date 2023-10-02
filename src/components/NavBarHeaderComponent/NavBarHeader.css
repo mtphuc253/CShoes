@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 15px;
+}
+.navmenu a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 140%;
+    margin-right: 30px;
+}
+.navmenu a:hover{
+    color: gray;
+}
